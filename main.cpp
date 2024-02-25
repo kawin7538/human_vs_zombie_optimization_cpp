@@ -126,8 +126,8 @@ int main()
     for (const auto &isl : archi) {
 
         std::cout << isl.get_population() << '\n';
-        std::cout << isl.get_population()..champion_f()[0] << '\n';
-        std::cout << isl.get_population()..champion_x()[0] << '\n';
+        std::cout << isl.get_population().champion_f()[0] << '\n';
+        std::cout << isl.get_population().champion_x()[0] << '\n';
 
     }
 
