@@ -24,6 +24,9 @@ Simply run the following script
 
 `g++ -O2 -DNDEBUG -std=c++17 main.cpp -pthread -lpagmo -lboost_serialization -ltbb`
 
+## Where is my output
+Output were simply saved as "output.txt".
+
 ## Contributor
 Kawin Chinpong (Github: kawin7538)
 
